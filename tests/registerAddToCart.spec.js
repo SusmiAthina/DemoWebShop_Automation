@@ -1,3 +1,4 @@
+//Q2: Register and Add Product to Cart Test using playwright (POM)
 import { test, expect } from '@playwright/test';
 import { RegisterPage } from './pages/RegisterPage.js';
 
