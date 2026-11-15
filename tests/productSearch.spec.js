@@ -1,3 +1,4 @@
+//Q3: Product Search E2E Test using playwright and page object model (POM)
 import { test, expect } from '@playwright/test';
 import { ProductPage } from './pages/ProductPage.js';
 import { CartPage } from './pages/CartPage.js';
