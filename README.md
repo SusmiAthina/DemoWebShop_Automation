@@ -75,3 +75,30 @@ API Testing
 API testing is performed using Postman and Newman.
 
 PS C:\Users\Susmita\Desktop\Demoshop_Automation> Copy-Item .\tests\README.md .
+
+API Automation
+API testing is performed using Postman and Newman.
+
+API: https://jsonplaceholder.typicode.com/users
+
+Test Scenarios:
+1. GET All Users - Validate status code 200 and user details.
+2. GET Single User - Retrieve a user using a dynamic ID.
+3. PUT Update User - Update user name, email, and company name.
+
+Run API Tests:
+newman run ./api-tests/API_Automation_JSONplaceholder.json
+
+API Allure Report:
+The API Allure HTML report is available in:
+_api_run/allure-report
+
+Generate API Allure Report:
+allure generate .\_api_run\allure-results --clean -o .\_api_run\allure-report
+
+Open API Allure Report:
+allure open .\_api_run\allure-report
+
+Screenshots:
+Q3 Search Result: screenshots/Q3-Search-Result.png
+Q3 Order Confirmation: screenshots/Q3-Order-Confirmation.png
