@@ -1,0 +1,3 @@
+pm.collectionVariables.set("updatedName", "Updated User " + Date.now());
+pm.collectionVariables.set("updatedEmail", "updated" + Date.now() + "@example.com");
+pm.collectionVariables.set("updatedCompanyName", "Updated Company " + Date.now());

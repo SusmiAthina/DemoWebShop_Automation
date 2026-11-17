@@ -1,0 +1,22 @@
+pm.test("Status code is 200", function () {
+pm.response.to.have.status(200);
+});
+
+pm.test("Returned ID matches saved ID", function () {
+const response = pm.response.json();
+pm.expect(response.id).to.eql(
+Number(pm.collectionVariables.get("userId"))
+);
+});
+
+pm.test("Phone is not empty", function () {
+const response = pm.response.json();
+pm.expect(response.phone).to.not.be.empty;
+});
+
+pm.test("Updated name matches", function () {
+const response = pm.response.json();
+pm.expect(response.name).to.eql(
+pm.collectionVariables.get("updatedName")
+);
+});

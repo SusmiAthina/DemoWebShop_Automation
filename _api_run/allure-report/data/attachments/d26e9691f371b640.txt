@@ -1,0 +1,9 @@
+{
+  "name": "Updated User 1794829569621",
+  "email": "updated1794829569621@example.com",
+  "company": {
+    "name": "Updated Company 1794829569621"
+  },
+  "phone": "1-770-736-8031 x56442",
+  "id": 1
+}
