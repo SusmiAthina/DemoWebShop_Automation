@@ -27,6 +27,10 @@ Complete the checkout process.
 Verify successful order confirmation.
 Project Structure
 Demoshop_Automation/
+## Project Structure
+
+```text
+Demoshop_Automation/
 │
 ├── tests/
 │   ├── pages/
@@ -38,11 +42,26 @@ Demoshop_Automation/
 │   │
 │   ├── invalidLogin.spec.js
 │   ├── registerAddToCart.spec.js
-│   └── productSearch.spec.js
+│   ├── productSearch.spec.js
+│   └── example.spec.js
+│
+├── api-tests/
+│   └── API_Automation_JSONplaceholder.json
+│
+├── _api_run/
+│   ├── allure-results/
+│   ├── allure-report/
+│   └── newman-report.html
+│
+├── screenshots/
 │
 ├── playwright.config.js
 ├── package.json
+├── package-lock.json
+├── .gitignore
 └── README.md
+```
+
 Installation and Setup
 Install Node.js.
 Clone the repository.
@@ -74,7 +93,6 @@ npx allure open allure-report
 API Testing
 API testing is performed using Postman and Newman.
 
-PS C:\Users\Susmita\Desktop\Demoshop_Automation> Copy-Item .\tests\README.md .
 
 API Automation
 API testing is performed using Postman and Newman.
