@@ -117,6 +117,40 @@ allure generate .\_api_run\allure-results --clean -o .\_api_run\allure-report
 Open API Allure Report:
 allure open .\_api_run\allure-report
 
-Screenshots:
-Q3 Search Result: screenshots/Q3-Search-Result.png
-Q3 Order Confirmation: screenshots/Q3-Order-Confirmation.png
+## Screenshots
+
+This section contains screenshots of UI automation test execution, API testing, HTML reports, Allure reports, and previous test results.
+
+### UI Automation Test Execution
+
+- [Invalid Login Test](screenshots/01-Invalid-Login.png)
+- [Register and Add to Cart Test](screenshots/02-Register-AddToCart.PNG)
+- [Product Search and Checkout Test](screenshots/03-Product-Search-Checkout.PNG)
+- [All UI Tests Execution](screenshots/04-All-UI-Tests.PNG)
+- [Playwright HTML Report](screenshots/05-UI-HTML-Report.PNG)
+- [UI Allure Report](screenshots/06-UI-Allure-Report.PNG)
+
+### API Automation and Reports
+
+- [API Newman CLI Report](screenshots/07-API-Newman-Report.PNG)
+- [API Newman HTML Extra Report](screenshots/08-API-Newman-HTML-Report.PNG)
+- [API Newman HTML Extra Report - Additional](screenshots/08-API-Newman-HTML-Report1.PNG)
+- [API Allure Report](screenshots/09-API-Allure-Report.PNG)
+- [Previous API Allure Screenshot](screenshots/API_Allure.png)
+
+### Combined Execution
+
+- [Combined UI and API Execution](screenshots/10-Combined-Execution.PNG)
+- [Combined Execution - Additional](screenshots/10-Combined-Execution1.PNG)
+
+### Previous UI Automation Screenshots
+
+- [Q3 Search Result](screenshots/Q3-Search-Result.png)
+- [Q3 Order Confirmation](screenshots/Q3-Order-Confirmation.png)
+- [5 Passed Test Result](screenshots/5passed.PNG)
+- [Allure Report Screenshot 1](screenshots/allure.PNG)
+- [Allure Report Screenshot 2](screenshots/allure2.PNG)
+- [Allure Report Screenshot 3](screenshots/allure3.PNG)
+- [Playwright Report Screenshot 1](screenshots/playwright.PNG)
+- [Playwright Report Screenshot 2](screenshots/playwright2.PNG)
+- [Playwright Report Screenshot 3](screenshots/playwright3.PNG)
